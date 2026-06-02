@@ -80,7 +80,6 @@ public static class LootHelper
 
             return false;
         }
-            //return expertDrop.ruleForNormalMode is CommonDrop normal && ProcessRule(normal, itemId) || expertDrop.ruleForExpertMode is CommonDrop expert && ProcessRule(expert, itemId);;
         
         if (rule is not OneFromOptionsDropRule oneFromOptionsDropRule)
             return rule is CommonDrop commonDrop && commonDrop.itemId == itemId;

@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using Terraria;
 using Terraria.ID;
+using Terraria.Localization;
 using Terraria.ModLoader;
 using YoyoRebalance.Helpers;
 
@@ -34,44 +35,15 @@ namespace YoyoRebalance.Common.GlobalItems
         {
             var lifetime = ProjectileID.Sets.YoyosLifeTimeMultiplier[item.shoot];
             
-            tooltips.Insert(5, new TooltipLine(Mod, "YoyoLifetime", lifetime == -1 ? "Spins forever" : $"{lifetime} sec spin time"));
-            tooltips.Insert(6, new TooltipLine(Mod, "YoyoRange", $"{Math.Floor(ProjectileID.Sets.YoyosMaximumRange[item.shoot] * 0.0625)} tile range"));
-            tooltips.Insert(7, new TooltipLine(Mod, "YoyoSpeed", $"{Math.Round(ProjectileID.Sets.YoyosTopSpeed[item.shoot] * (46f / 9f))} mph top speed"));
+            tooltips.Insert(5, new TooltipLine(Mod, "YoyoLifetime", lifetime == -1 ? Language.GetTextValue("Mods.YoyoRebalance.Tooltips.YoyoLifetimeUnlimited") : Language.GetText("Mods.YoyoRebalance.Tooltips.YoyoLifetime").Format(lifetime)));
+            tooltips.Insert(6, new TooltipLine(Mod, "YoyoRange", Language.GetText("Mods.YoyoRebalance.Tooltips.YoyoRange").Format(Math.Floor(ProjectileID.Sets.YoyosMaximumRange[item.shoot] * 0.0625))));
+            tooltips.Insert(7, new TooltipLine(Mod, "YoyoSpeed", Language.GetText("Mods.YoyoRebalance.Tooltips.YoyoSpeed").Format(Math.Round(ProjectileID.Sets.YoyosTopSpeed[item.shoot] * (46f / 9f)))));
 
-            switch (item.type)
+            var key = $"Mods.YoyoRebalance.Lore.{item.type}";
+            
+            if (Language.Exists(key))
             {
-                case ItemID.CorruptYoyo:
-                    tooltips.Insert(8, new TooltipLine(Mod, "YoyoBonus", "Ruptures the purity of the enemy"));
-
-                    break;
-                case ItemID.CrimsonYoyo:
-                    tooltips.Insert(8, new TooltipLine(Mod, "YoyoBonus", "Blood will be shed on the battlefield!"));
-
-                    break;
-                case ItemID.JungleYoyo:
-                    tooltips.Insert(8, new TooltipLine(Mod, "YoyoBonus", "Poisons enemies and stings them during combat"));
-
-                    break;
-                case ItemID.HelFire:
-                    tooltips.Insert(8, new TooltipLine(Mod, "YoyoBonus", "Explodes violently when attacking enemies"));
-
-                    break;
-                case ItemID.Yelets:
-                    tooltips.Insert(8, new TooltipLine(Mod, "YoyoBonus", "Fires fragmenting seeds on contact with enemies"));
-
-                    break;
-                case ItemID.Kraken:
-                    tooltips.Insert(8, new TooltipLine(Mod, "YoyoBonus", "Swarms enemies with dozens of detonating bubbles when hit"));
-
-                    break;
-                case ItemID.TheEyeOfCthulhu:
-                    tooltips.Insert(8, new TooltipLine(Mod, "YoyoBonus", "Rapidly fires death lasers at nearby enemies"));
-
-                    break;
-                case ItemID.Chik:
-                    tooltips.Insert(8, new TooltipLine(Mod, "YoyoBonus", "Ignores 40 points of enemy Defense"));
-
-                    break;
+                tooltips.Insert(8, new TooltipLine(Mod, "YoyoSpeed", Language.GetTextValue(key)));
             }
         }
     }

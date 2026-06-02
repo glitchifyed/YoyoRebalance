@@ -1,0 +1,21 @@
+Mods: {
+	YoyoRebalance: {
+		Lore: {
+			3279: Purity shall be ruptured in your enemies!
+			3280: Blood will be shed on any who dares challenge you!
+			3281: Tends to sting anything that comes in close proximity
+			3283: Ignores 40 points of enemy Defense
+			3286: Fires fragmenting seeds against its foes
+			3290: Explodes violently on anything it touches
+			3291: Swarms opponents with dozens of detonating bubbles
+			3292: Rapidly fires death lasers at nearby enemies
+		}
+
+		Tooltips: {
+			YoyoLifetimeUnlimited: Spins forever
+			YoyoLifetime: "{0} sec spin time"
+			YoyoRange: "{0} tile range"
+			YoyoSpeed: "{0} mph top speed"
+		}
+	}
+}
