@@ -19,7 +19,7 @@ namespace YoyoRebalance.Systems
             YoyoHelper.ModifyYoyo(ItemID.HelFire, 62, 18f, 14f, 80f);
             YoyoHelper.ModifyYoyo(ItemID.Yelets, 50, 24f, 19f, 60f);
             YoyoHelper.ModifyYoyo(ItemID.Kraken, 32, 16f, 16f, 120f);
-            YoyoHelper.ModifyYoyo(ItemID.TheEyeOfCthulhu, 100, 20f, 18f, 60f);
+            YoyoHelper.ModifyYoyo(ItemID.TheEyeOfCthulhu, 100, 30f, 18f, 60f);
             
             YoyoHelper.ModifyYoyo(ItemID.Rally, damage: 16);
             YoyoHelper.ModifyYoyo(ItemID.JungleYoyo, damage: 14);

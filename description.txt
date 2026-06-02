@@ -1,1 +1,37 @@
-Modify this file with a description of your mod.
+A yoyo rebalance mod inspired by ChippyGaming's recent yoyo playthrough.
+As of v1.0 this mod doesn't add any new content, instead opting for easier obtainability and shifting stats around to make them more unique.
+Future updates may add some new yoyos, accessories, and crafting materials.
+
+This mod aims to make the yoyo subclass more interesting and hopes to make them a little stronger, since I often find they aren't always that great.
+
+These yoyos have had their stats shifted:
+    • Wooden yoyo -> small changes
+    • Rally -> small changes
+    • Malaise -> projectile & small changes
+    • Artery -> effect & small changes
+    • Amazon -> projectile & small changes
+    • Valor -> big changes, has its own uses compared to other yoyos now
+    • Cascade -> small changes
+    
+    • Amarok -> small changes
+    • Chik -> low damage, high armor penetration
+    • Hel-Fire -> effect, small changes
+    • Yelets -> projectile, small changes
+    • Kraken -> swarm of projectiles, small changes
+    • The Eye of Cthulhu -> projectiles, small changes
+
+Yoyo obtainability changes:
+    • Rally -> now craftable at an anvil, no longer dropped rarely by cave enemies
+    • Amazon -> now requires either the Malaise or Artery in its recipe to avoid progression skipping
+    • Cascade -> now crafted with Hellstone Bars and the Valor yoyo, no longer a rare drop
+    
+    • Amarok -> now crafted with a Frost Core and Cobalt Bars, no longer a rare drop
+    • Chik -> now crafted with Queen Slime's sparkle balloons
+    • Hel-Fire -> now crafted with Hallowed Bars, no longer a rare drop
+    • Yelets -> obtained via shimmering the Seedler, no longer a rare drop
+    • Kraken -> dropped by Duke Fishron, no longer a rare drop
+    • The Eye of Cthulhu -> now crafted with Souls of Sight, Hallowed Bars, Chlorophyte Bars, and Beetle Husks. No longer dropped by Mothron
+
+Other changes:
+    • Yoyo stats (lifetime, range & speed) are now displayed in an item's tooltip
+    • Some yoyos have been given lore lines which allude to what they do
