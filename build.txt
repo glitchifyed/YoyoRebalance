@@ -1,0 +1,3 @@
+displayName = Yoyo Rebalance
+author = glitchifyed
+version = 0.1

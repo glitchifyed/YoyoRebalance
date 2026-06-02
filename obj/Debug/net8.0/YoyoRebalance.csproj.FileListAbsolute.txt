@@ -1,0 +1,12 @@
+C:\Users\glitchifyed\Documents\My Games\Terraria\tModLoader\ModSources\YoyoRebalance\bin\Debug\net8.0\YoyoRebalance.deps.json
+C:\Users\glitchifyed\Documents\My Games\Terraria\tModLoader\ModSources\YoyoRebalance\bin\Debug\net8.0\YoyoRebalance.dll
+C:\Users\glitchifyed\Documents\My Games\Terraria\tModLoader\ModSources\YoyoRebalance\bin\Debug\net8.0\YoyoRebalance.pdb
+C:\Users\glitchifyed\Documents\My Games\Terraria\tModLoader\ModSources\YoyoRebalance\obj\Debug\net8.0\YoyoRebalance.csproj.AssemblyReference.cache
+C:\Users\glitchifyed\Documents\My Games\Terraria\tModLoader\ModSources\YoyoRebalance\obj\Debug\net8.0\YoyoRebalance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\glitchifyed\Documents\My Games\Terraria\tModLoader\ModSources\YoyoRebalance\obj\Debug\net8.0\YoyoRebalance.AssemblyInfoInputs.cache
+C:\Users\glitchifyed\Documents\My Games\Terraria\tModLoader\ModSources\YoyoRebalance\obj\Debug\net8.0\YoyoRebalance.AssemblyInfo.cs
+C:\Users\glitchifyed\Documents\My Games\Terraria\tModLoader\ModSources\YoyoRebalance\obj\Debug\net8.0\YoyoRebalance.csproj.CoreCompileInputs.cache
+C:\Users\glitchifyed\Documents\My Games\Terraria\tModLoader\ModSources\YoyoRebalance\obj\Debug\net8.0\YoyoRebalance.dll
+C:\Users\glitchifyed\Documents\My Games\Terraria\tModLoader\ModSources\YoyoRebalance\obj\Debug\net8.0\refint\YoyoRebalance.dll
+C:\Users\glitchifyed\Documents\My Games\Terraria\tModLoader\ModSources\YoyoRebalance\obj\Debug\net8.0\YoyoRebalance.pdb
+C:\Users\glitchifyed\Documents\My Games\Terraria\tModLoader\ModSources\YoyoRebalance\obj\Debug\net8.0\ref\YoyoRebalance.dll
